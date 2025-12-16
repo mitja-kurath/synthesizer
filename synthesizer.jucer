@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<JUCERPROJECT id="eEcu2S" name="synthesizer" projectType="audioplug" useAppConfig="0"
-              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
-  <MAINGROUP id="pMm6CW" name="synthesizer">
+<JUCERPROJECT id="eEcu2S" name="Synthesizer" projectType="audioplug" useAppConfig="1"
+              addUsingNamespaceToJuceHeader="1" jucerFormatVersion="1" version="0.0.0"
+              companyName="Mitja Kurath" companyCopyright="Mitja Kurath" companyWebsite="www.mitjakurath.ch"
+              companyEmail="hi@mitjakurath.ch" bundleIdentifier="ch.mku.synth"
+              pluginCharacteristicsValue="pluginIsSynth">
+  <MAINGROUP id="pMm6CW" name="Synthesizer">
     <GROUP id="{93FF0CB6-021F-A780-0F11-9B96708CA5A0}" name="Source">
       <FILE id="LFSCWv" name="PluginProcessor.cpp" compile="1" resource="0"
             file="Source/PluginProcessor.cpp"/>
